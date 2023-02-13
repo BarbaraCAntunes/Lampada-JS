@@ -1,0 +1,35 @@
+body {
+  background-image: url(Assets/wallpaper.png);
+  background-size:cover;
+  background-color: gray;
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+#fotolampada {
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px black;
+  margin-top: 90px;
+  height: 300px;
+}
+
+button {
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+  transition: 0.3s;
+  box-shadow: 5px 5px 5px yellow;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover{
+  background-color: yellow;
+  color: red;
+}
